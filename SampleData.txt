@@ -1,0 +1,476 @@
+-- Insert Pediatricians
+
+INSERT INTO pediatricians (doc_id, first_name, middle_name, last_name, phone_num) VALUES (1, 'Neil', 'Patrick', 'Harris', '5736362961');
+INSERT INTO pediatricians (doc_id, first_name, middle_name, last_name, phone_num) VALUES (2, 'Ellen', 'Kathleen', 'Pompeo', '9292665283');
+INSERT INTO pediatricians (doc_id, first_name, middle_name, last_name, phone_num) VALUES (3, 'Zachary', 'Israel', 'Braff', '9162555887');
+
+-- Insert Students
+
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (1, 'James', 'Isaac', 'Neutron', '1234 Atomic Drive, Retroville, USA', '441665417', '5553523', TO_DATE('1991-03-14', 'yyyy-mm-dd'),  2);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (2, 'Cynthia', 'Aurora', 'Vortex', '1250 Atomic Drive, Retroville, USA', '274152460', '5557878', TO_DATE('1991-06-05', 'yyyy-mm-dd'),  1);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (3, 'Timothy', 'Tiberius', 'Turner', '301 Nickelodeon St, Dimmsdale, California', '393446394', '5556685', TO_DATE('1992-03-21', 'yyyy-mm-dd'),  1);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (4, 'Stewart', 'Gilligan', 'Griffin', '31 Spooner Street, Quahog, Rhode Island', '530678582', '5555418', TO_DATE('1997-06-18', 'yyyy-mm-dd'),  2);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (5, 'Thomas', 'Malcom', 'Pickles', '1258 N. Highland, San Bernardino, California', '304768263', '5554718', TO_DATE('1990-08-11', 'yyyy-mm-dd'),  2);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (6, 'Eric', 'Theodore', 'Cartman', '28201 E. Bonanza St, South Park, Colorado', '793296671', '5551388', TO_DATE('1997-07-01', 'yyyy-mm-dd'),  1);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (7, 'Stanley', 'Randall', 'Marsh', '2001 E. Bonanza St., South Park, Colorado', '536669711', '5551151', TO_DATE('1997-10-19', 'yyyy-mm-dd'),  2);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (8, 'Lincoln', 'Albert', 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', '677767739', '5552593', TO_DATE('2004-10-12', 'yyyy-mm-dd'),  3);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (9, 'Lori', 'L', 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', '646202992', '5553932', TO_DATE('2003-07-13', 'yyyy-mm-dd'),  3);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (10, 'Leni', 'L', 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', '921287161', '5556473', TO_DATE('2007-05-08', 'yyyy-mm-dd'),  1);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (11, 'Luna', NULL, 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', '616606082', '5552896', TO_DATE('2005-03-15', 'yyyy-mm-dd'),  1);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (12, 'Luan', NULL, 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', '529962804', '5559353', TO_DATE('2006-04-01', 'yyyy-mm-dd'),  1);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (13, 'Lynn', NULL, 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', '664259050', '5559750', TO_DATE('2007-04-09', 'yyyy-mm-dd'),  3);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (14, 'Lucy', 'L', 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', '45164509', '5553021', TO_DATE('2012-09-02', 'yyyy-mm-dd'),  3);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (15, 'Lana', NULL, 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', '304729760', '5550151', TO_DATE('2014-03-21', 'yyyy-mm-dd'),  2);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (16, 'Lola', NULL, 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', '939837127', '5550960', TO_DATE('2014-03-21', 'yyyy-mm-dd'),  2);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (17, 'Lisa', NULL, 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', '920421765', '5550161', TO_DATE('2016-11-04', 'yyyy-mm-dd'),  1);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (18, 'Lily', NULL, 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', '634611868', '5553311', TO_DATE('2019-02-05', 'yyyy-mm-dd'),  2);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (19, 'Sheen', 'Juarrera', 'Estevez', '1024 Atomic Drive, Retroville, USA', '960609249', '5558146', TO_DATE('1991-11-16', 'yyyy-mm-dd'),  3);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (20, 'Carlton', 'Ulysses', 'Wheezer', '1111 Atomic Drive, Retroville, USA', '40772504', '5553997', TO_DATE('1991-01-17', 'yyyy-mm-dd'),  2);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (21, 'Sophia', 'Elizabeth', 'Smith', '123 Main St., New York, NY', '123456789', '5555555551', TO_DATE('2015-01-01', 'yyyy-mm-dd'), 1);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (22, 'Benjamin', 'Joseph', 'Smith', '666 Sixth St., San Diego, CA', '333333333', '5555555558', TO_DATE('2019-08-08', 'yyyy-mm-dd'), 2);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (23, 'Jacob', 'David', 'Jones', '456 Park Ave., Los Angeles, CA', '987654321', '5555555552', TO_DATE('2017-03-05', 'yyyy-mm-dd'), 2);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (24, 'Michael', 'Alexander', 'Jones', '222 Fourth St., Phoenix, AZ', '555555555', '5555555556', TO_DATE('2017-08-08', 'yyyy-mm-dd'), 3);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (25, 'Olivia', 'Lily', 'Williams', '333 Park Ave., Philadelphia, PA', '987651234', '5555555555', TO_DATE('2016-12-25', 'yyyy-mm-dd'), 3);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (26, 'William', 'James', 'Johnson', '555 Main St., Houston, TX', '987651234', '5555555554', TO_DATE('2015-04-17', 'yyyy-mm-dd'), 3);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (27, 'Elijah', 'Christopher', 'Johnson', '777 Seventh St., Dallas, TX', '222222222', '5555555559', TO_DATE('2017-09-09', 'yyyy-mm-dd'), 1);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (28, 'Isabella', 'Mia', 'Brown', '444 Fifth St., San Antonio, TX', '444444444', '5555555557', TO_DATE('2019-01-01', 'yyyy-mm-dd'), 1);
+INSERT INTO students (student_id, first_name, middle_name, last_name, address, ssn, phone_num, birthdate, pediatrician_id) VALUES (29, 'Emma', 'Samantha', 'Brown', '789 Second St., Chicago, IL', '111111111', '5555555553', TO_DATE('2018-08-08', 'yyyy-mm-dd'), 3);
+
+-- Insert Allergies
+INSERT INTO allergies (allergy_id, student_id, allergy) VALUES (1, 3, 'Sauerkraut');
+INSERT INTO allergies (allergy_id, student_id, allergy) VALUES (2, 20, 'Dust');
+INSERT INTO allergies (allergy_id, student_id, allergy) VALUES (3, 20, 'Ice');
+
+-- Insert Student Type
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (1, 29, 'Current Student');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (2, 28, 'Current Student');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (3, 27, 'Waitlister');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (4, 26, 'Waitlister');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (5, 26, 'Current Student');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (6, 25, 'Current Student');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (7, 24, 'Waitlister');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (8, 23, 'Waitlister');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (9, 22, 'Waitlister');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (10, 21, 'Current Student');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (11, 20, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (12, 19, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (13, 18, 'Current Student');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (14, 17, 'Current Student');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (15, 16, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (16, 15, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (17, 14, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (18, 13, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (19, 12, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (20, 11, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (21, 10, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (22, 9, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (23, 8, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (24, 7, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (25, 5, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (26, 5, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (27, 4, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (28, 3, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (29, 2, 'Alumni');
+INSERT INTO student_type (record_id, student_id, student_type) VALUES (30, 1, 'Alumni');
+
+-- Insert Student Evals
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (1, 1, DATE '2021-5-01', 78, 96, 77, 96);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (2, 1, DATE '2021-9-01', 95, 73, 71, 76);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (3, 2, DATE '2021-5-01', 100, 91, 76, 75);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (4, 2, DATE '2021-9-01', 84, 98, 81, 73);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (5, 3, DATE '2021-5-01', 75, 83, 99, 90);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (6, 3, DATE '2021-9-01', 91, 81, 83, 70);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (7, 4, DATE '2021-5-01', 83, 94, 82, 74);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (8, 4, DATE '2021-9-01', 71, 89, 73, 77);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (9, 5, DATE '2021-5-01', 90, 72, 72, 75);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (10, 5, DATE '2021-9-01', 79, 91, 87, 77);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (11, 6, DATE '2021-5-01', 75, 93, 77, 97);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (12, 6, DATE '2021-9-01', 82, 87, 86, 87);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (13, 7, DATE '2021-5-01', 84, 91, 82, 81);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (14, 7, DATE '2021-9-01', 70, 100, 81, 89);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (15, 8, DATE '2021-5-01', 88, 95, 97, 95);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (16, 8, DATE '2021-9-01', 78, 78, 99, 97);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (17, 9, DATE '2021-5-01', 86, 99, 80, 73);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (18, 9, DATE '2021-9-01', 89, 79, 91, 84);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (19, 10, DATE '2021-5-01', 86, 98, 82, 78);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (20, 10, DATE '2021-9-01', 82, 77, 72, 76);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (21, 11, DATE '2021-5-01', 87, 95, 97, 87);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (22, 11, DATE '2021-9-01', 71, 83, 100, 93);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (23, 12, DATE '2021-5-01', 75, 72, 78, 100);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (24, 12, DATE '2021-9-01', 74, 83, 92, 89);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (25, 13, DATE '2021-5-01', 84, 96, 72, 91);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (26, 13, DATE '2021-9-01', 93, 71, 92, 95);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (27, 14, DATE '2021-5-01', 87, 89, 91, 97);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (28, 14, DATE '2021-9-01', 93, 90, 100, 96);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (29, 15, DATE '2021-5-01', 89, 73, 74, 75);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (30, 15, DATE '2021-9-01', 86, 92, 71, 95);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (31, 16, DATE '2021-5-01', 100, 87, 71, 90);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (32, 16, DATE '2021-9-01', 97, 89, 85, 75);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (33, 17, DATE '2021-5-01', 72, 73, 96, 94);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (34, 17, DATE '2021-9-01', 83, 81, 88, 72);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (35, 18, DATE '2021-5-01', 98, 79, 75, 93);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (36, 18, DATE '2021-9-01', 82, 96, 79, 99);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (37, 19, DATE '2021-5-01', 93, 86, 91, 97);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (38, 19, DATE '2021-9-01', 77, 76, 92, 77);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (39, 20, DATE '2021-5-01', 72, 100, 84, 74);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (40, 20, DATE '2021-9-01', 70, 70, 92, 80);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (41, 21, DATE '2021-5-01', 81, 89, 78, 75);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (42, 21, DATE '2021-9-01', 80, 89, 70, 71);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (43, 22, DATE '2021-5-01', 72, 100, 78, 70);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (44, 22, DATE '2021-9-01', 95, 80, 76, 92);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (45, 23, DATE '2021-5-01', 97, 75, 84, 94);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (46, 23, DATE '2021-9-01', 98, 77, 77, 93);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (47, 24, DATE '2021-5-01', 99, 85, 85, 84);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (48, 24, DATE '2021-9-01', 76, 89, 99, 73);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (49, 25, DATE '2021-5-01', 77, 77, 85, 84);
+INSERT INTO student_evals (evaluation_id, student_id, evaluation_date, practical_life_skills, sensorial_activities, language_activities, cultural) VALUES (50, 25, DATE '2021-9-01', 91, 83, 71, 83);
+
+-- Insert Accounts
+INSERT INTO accounts (account_id, student_id) VALUES (1, 1);
+INSERT INTO accounts (account_id, student_id) VALUES (2, 2);
+INSERT INTO accounts (account_id, student_id) VALUES (3, 3);
+INSERT INTO accounts (account_id, student_id) VALUES (4, 4);
+INSERT INTO accounts (account_id, student_id) VALUES (5, 5);
+INSERT INTO accounts (account_id, student_id) VALUES (6, 6);
+INSERT INTO accounts (account_id, student_id) VALUES (7, 7);
+INSERT INTO accounts (account_id, student_id) VALUES (8, 8);
+INSERT INTO accounts (account_id, student_id) VALUES (9, 9);
+INSERT INTO accounts (account_id, student_id) VALUES (10, 10);
+INSERT INTO accounts (account_id, student_id) VALUES (11, 11);
+INSERT INTO accounts (account_id, student_id) VALUES (12, 12);
+INSERT INTO accounts (account_id, student_id) VALUES (13, 13);
+INSERT INTO accounts (account_id, student_id) VALUES (14, 14);
+INSERT INTO accounts (account_id, student_id) VALUES (15, 15);
+INSERT INTO accounts (account_id, student_id) VALUES (16, 16);
+INSERT INTO accounts (account_id, student_id) VALUES (17, 17);
+INSERT INTO accounts (account_id, student_id) VALUES (18, 18);
+INSERT INTO accounts (account_id, student_id) VALUES (19, 19);
+INSERT INTO accounts (account_id, student_id) VALUES (20, 20);
+INSERT INTO accounts (account_id, student_id) VALUES (21, 21);
+INSERT INTO accounts (account_id, student_id) VALUES (22, 22);
+INSERT INTO accounts (account_id, student_id) VALUES (23, 23);
+INSERT INTO accounts (account_id, student_id) VALUES (24, 24);
+INSERT INTO accounts (account_id, student_id) VALUES (25, 25);
+INSERT INTO accounts (account_id, student_id) VALUES (26, 26);
+INSERT INTO accounts (account_id, student_id) VALUES (27, 27);
+INSERT INTO accounts (account_id, student_id) VALUES (28, 28);
+INSERT INTO accounts (account_id, student_id) VALUES (29, 29);
+
+-- Insert Adults
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (1, 'Hughbert', 'Beaumont', 'Neutron', '1234 Atomic Drive, Retroville, USA', TO_DATE('1968-11-12', 'yyyy-mm-dd'), '5552580');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (2, 'Judith', 'Honey', 'Neutron', '1234 Atomic Drive, Retroville, USA', TO_DATE('1971-02-08', 'yyyy-mm-dd'), '5551677');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (3, 'Sasha', NULL, 'Vortex', '1250 Atomic Drive, Retroville, USA', NULL, '5550603');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (4, 'Frank', NULL, 'Vortex', '1250 Atomic Drive, Retroville, USA', NULL, '5551748');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (5, 'Edward', 'Robert', 'Turner', '301 Nickelodeon St, Dimmsdale, California', TO_DATE('1960-04-09', 'yyyy-mm-dd'), '5555949');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (6, 'Laurel', 'Sally', 'Turner', '301 Nickelodeon St, Dimmsdale, California', TO_DATE('1962-02-11', 'yyyy-mm-dd'), '5550808');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (7, 'Peter', 'Lowenbrau ', 'Griffin', '31 Spooner Street, Quahog, Rhode Island', NULL, '5553960');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (8, 'Lois', 'Patrice', 'Griffin', '31 Spooner Street, Quahog, Rhode Island', TO_DATE('1958-06-03', 'yyyy-mm-dd'), '5550103');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (9, 'Stuart', 'Louis', 'Pickles', '1258 N. Highland, San Bernardino, California', TO_DATE('1958-10-23', 'yyyy-mm-dd'), '5557358');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (10, 'Didila', NULL, 'Kropotkin-Pickles', '1258 N. Highland, San Bernardino, California', TO_DATE('1959-12-27', 'yyyy-mm-dd'), '5558951');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (11, 'Lynn', 'L', 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', NULL, '5555962');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (12, 'Rita', NULL, 'Loud', '1216 Franklin Avenue, Royal Woods, Michigan', NULL, '5554181');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (13, 'Harp', NULL, 'Estevez', '1024 Atomic Drive, Retroville, USA', NULL, '5555132');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (14, 'Ebenezer', NULL, 'Wheezer', '1111 Atomic Drive, Retroville, USA', NULL, '5559082');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (15, 'Martha', NULL, 'Wheezer', '1111 Atomic Drive, Retroville, USA', NULL, '5552649');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (16, 'Randall', 'Marvin', 'Marsh', '2001 E. Bonanza St., South Park, Colorado', NULL, '5551877');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (17, 'Sharon', 'K', 'Marsh', '2001 E. Bonanza St., South Park, Colorado', NULL, '5557249');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (18, 'Liane', NULL, 'Cartman', '28201 E. Bonanza St, South Park, Colorado', NULL, '5553974');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (19, 'Grandma', NULL, 'Estevez', NULL, NULL, '5559344');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (20, 'Sheldon', NULL, 'Dinkleberg', '303 Nickelodeon St, Dimmsdale, California', NULL, NULL);
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (21, 'Skebert', 'Henkle', 'Smith', '123 Main St., New York, NY', NULL, '2155555000');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (22, 'Salentia', 'Hestia', 'Smith', '666 Sixth St., San Diego, CA', NULL, '2115555000');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (23, 'Tylor', 'Grantin', 'Jones', '456 Park Ave., Los Angeles, CA', NULL, '2115556000');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (24, 'Theresa', 'Joan', 'Jones', '222 Fourth St., Phoenix, AZ', NULL, '2125556000');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (25, 'Jennifer', 'Louise', 'Williams', '333 Park Ave., Philadelphia, PA', NULL, '2175556000');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (26, 'Robert', 'William', 'Williams', '333 Park Ave., Philadelphia, PA', NULL, '2175556001');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (27, 'Brooke', 'Renee', 'Johnson', '555 Main St., Houston, TX', NULL, '2275556000');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (28, 'Johnathan', 'Kenneth', 'Johnson', '777 Seventh St., Dallas, TX', NULL, '2275556001');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (29, 'Madeline', 'Flora', 'Brown', '444 Fifth St., San Antonio, TX', NULL, '2375556000');
+INSERT INTO adults (adult_id, first_name, middle_name, last_name, address, birthdate, phone_num) VALUES (30, 'TJ', 'Aiden', 'Brown', '789 Second St., Chicago, IL', NULL, '2375556001');
+
+
+-- Insert Adult/Student Relations
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (1, 1, 'Father', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (2, 1, 'Mother', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (3, 2, 'Mother', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (4, 2, 'Father', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (5, 3, 'Father', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (6, 3, 'Mother', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (7, 4, 'Father', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (8, 4, 'Mother', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (9, 5, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (10, 5, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (11, 8, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (12, 8, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (11, 9, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (12, 9, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (11, 10, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (12, 10, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (11, 11, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (12, 11, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (11, 12, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (12, 12, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (11, 13, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (12, 13, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (11, 14, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (12, 14, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (11, 15, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (12, 15, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (11, 16, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (12, 16, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (11, 17, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (12, 17, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (11, 18, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (12, 18, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (13, 19, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (2, 19, NULL, 'True', NULL);
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (19, 19, NULL, 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (14, 20, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (15, 20, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (18, 6, 'Mother', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (17, 6, NULL, 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (16, 7, 'Father', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (17, 7, 'Mother', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (20, 3, NULL, 'False', NULL);
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (21, 21, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (22, 21, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (21, 22, 'Father', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (22, 22, 'Mother', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (23, 23, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (24, 23, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (23, 24, 'Father', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (24, 24, 'Mother', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (26, 25, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (25, 25, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (28, 26, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (27, 26, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (28, 27, 'Father', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (27, 27, 'Mother', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (30, 28, 'Father', 'True', 'primary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (29, 28, 'Mother', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (30, 29, 'Father', 'True', 'secondary');
+INSERT INTO adult_to_student (a_id, s_id, parent_type, can_pickup, emergency_contact_type) VALUES (29, 29, 'Mother', 'True', 'primary');
+
+-- Insert Programs
+INSERT INTO programs (program_id, program_name) VALUES (1, 'Primary');
+INSERT INTO programs (program_id, program_name) VALUES (2, 'Summer');
+INSERT INTO programs (program_id, program_name) VALUES (3, 'After-school');
+
+-- Insert Classes
+INSERT INTO classes (class_id, classroom_name, capacity, program_id) VALUES (1, 'Linn Street Classroom', 15, 1);
+INSERT INTO classes (class_id, classroom_name, capacity, program_id) VALUES (2, 'Sante Fe Classroom', 10, 1);
+INSERT INTO classes (class_id, classroom_name, capacity, program_id) VALUES (3, 'JEC Classroom', 15, 1);
+INSERT INTO classes (class_id, classroom_name, capacity, program_id) VALUES (4, 'After School Program', 10, 3);
+INSERT INTO classes (class_id, classroom_name, capacity, program_id) VALUES (5, 'Summer Session', 20, 2);
+
+-- Insert Section
+INSERT INTO sections (sect_id, class_id, session_time, tuition_deposit, one_payment_cost, two_payment_cost, ten_payment_cost, school_year, registration_fee) VALUES (1, 1, 'Morning only', 475, 4275, 2200, 440, '2022-2023', 100);
+INSERT INTO sections (sect_id, class_id, session_time, tuition_deposit, one_payment_cost, two_payment_cost, ten_payment_cost, school_year, registration_fee) VALUES (2, 1, 'All day', 525, 4725, 2425, 485, '2022-2023', 100);
+INSERT INTO sections (sect_id, class_id, session_time, tuition_deposit, one_payment_cost, two_payment_cost, ten_payment_cost, school_year, registration_fee) VALUES (1, 2, 'Morning only', 475, 4275, 2200, 440, '2022-2023', 100);
+INSERT INTO sections (sect_id, class_id, session_time, tuition_deposit, one_payment_cost, two_payment_cost, ten_payment_cost, school_year, registration_fee) VALUES (2, 2, 'All day', 525, 4725, 2425, 485, '2022-2023', 100);
+INSERT INTO sections (sect_id, class_id, session_time, tuition_deposit, one_payment_cost, two_payment_cost, ten_payment_cost, school_year, registration_fee) VALUES (1, 3, 'Morning only', 475, 4275, 2200, 440, '2022-2023', 100);
+INSERT INTO sections (sect_id, class_id, session_time, tuition_deposit, one_payment_cost, two_payment_cost, ten_payment_cost, school_year, registration_fee) VALUES (2, 3, 'All day', 525, 4725, 2425, 485, '2022-2023', 100);
+INSERT INTO sections (sect_id, class_id, session_time, tuition_deposit, one_payment_cost, two_payment_cost, ten_payment_cost, school_year, registration_fee) VALUES (1, 4, '1 day', 0, 495, 248, 50, '2022-2023', 0);
+INSERT INTO sections (sect_id, class_id, session_time, tuition_deposit, one_payment_cost, two_payment_cost, ten_payment_cost, school_year, registration_fee) VALUES (2, 4, '2 days', 0, 990, 495, 100, '2022-2023', 0);
+INSERT INTO sections (sect_id, class_id, session_time, tuition_deposit, one_payment_cost, two_payment_cost, ten_payment_cost, school_year, registration_fee) VALUES (3, 4, '3 days', 0, 1485, 743, 150, '2022-2023', 0);
+INSERT INTO sections (sect_id, class_id, session_time, tuition_deposit, one_payment_cost, two_payment_cost, ten_payment_cost, school_year, registration_fee) VALUES (4, 4, '4 days', 0, 1980, 990, 200, '2022-2023', 0);
+INSERT INTO sections (sect_id, class_id, session_time, tuition_deposit, one_payment_cost, two_payment_cost, ten_payment_cost, school_year, registration_fee) VALUES (5, 4, '5 days', 0, 2250, 1125, 225, '2022-2023', 0);
+
+-- Insert Student/Section Assignments
+INSERT INTO student_sections (assign_id, student_id, s_id, c_id, start_date, payment_frequency) VALUES (1, 17, 1, 1, DATE '2022-08-01', 'One');
+INSERT INTO student_sections (assign_id, student_id, s_id, c_id, start_date, payment_frequency) VALUES (2, 18, 2, 1, DATE '2022-08-01', 'One');
+INSERT INTO student_sections (assign_id, student_id, s_id, c_id, start_date, payment_frequency) VALUES (3, 21, 2, 1, DATE '2022-08-01', 'Ten');
+INSERT INTO student_sections (assign_id, student_id, s_id, c_id, start_date, payment_frequency) VALUES (4, 25, 2, 2, DATE '2022-08-01', 'Two');
+INSERT INTO student_sections (assign_id, student_id, s_id, c_id, start_date, payment_frequency) VALUES (5, 26, 2, 2, DATE '2022-08-01', 'Two');
+INSERT INTO student_sections (assign_id, student_id, s_id, c_id, start_date, payment_frequency) VALUES (6, 28, 2, 3, DATE '2022-09-01', 'Two');
+INSERT INTO student_sections (assign_id, student_id, s_id, c_id, start_date, payment_frequency) VALUES (7, 29, 2, 3, DATE '2022-09-01', 'Two');
+
+-- Insert Drop Ins
+INSERT INTO drop_ins (record_id, student_id, sect_id, class_id, drop_in_date) VALUES (1, 28, 2, 3, DATE '2022-08-20');
+INSERT INTO drop_ins (record_id, student_id, sect_id, class_id, drop_in_date) VALUES (2, 29, 2, 3, DATE '2022-08-20');
+INSERT INTO drop_ins (record_id, student_id, sect_id, class_id, drop_in_date) VALUES (3, 28, 2, 3, DATE '2022-08-21');
+INSERT INTO drop_ins (record_id, student_id, sect_id, class_id, drop_in_date) VALUES (4, 29, 2, 3, DATE '2022-08-21');
+INSERT INTO drop_ins (record_id, student_id, sect_id, class_id, drop_in_date) VALUES (5, 28, 2, 3, DATE '2022-08-22');
+INSERT INTO drop_ins (record_id, student_id, sect_id, class_id, drop_in_date) VALUES (6, 29, 2, 3, DATE '2022-08-22');
+
+-- Insert Teachers
+INSERT INTO teachers (teacher_id, first_name, middle_name, last_name) VALUES (1, 'Cheryl', NULL, 'Paizis');
+INSERT INTO teachers (teacher_id, first_name, middle_name, last_name) VALUES (2, 'Anne-marie', NULL, 'Hollingsworth');
+INSERT INTO teachers (teacher_id, first_name, middle_name, last_name) VALUES (3, 'Sirisha', NULL, 'Komarneni');
+INSERT INTO teachers (teacher_id, first_name, middle_name, last_name) VALUES (4, 'Lois', NULL, 'Koch');
+INSERT INTO teachers (teacher_id, first_name, middle_name, last_name) VALUES (5, 'Zoe', NULL, 'Nieves');
+INSERT INTO teachers (teacher_id, first_name, middle_name, last_name) VALUES (6, 'Sheetal', NULL, 'Jayswal');
+INSERT INTO teachers (teacher_id, first_name, middle_name, last_name) VALUES (7, 'Kristen', NULL, 'Hill');
+INSERT INTO teachers (teacher_id, first_name, middle_name, last_name) VALUES (8, 'Pinky', NULL, 'Agarwalil');
+INSERT INTO teachers (teacher_id, first_name, middle_name, last_name) VALUES (9, 'Taylor', NULL, 'Peterson');
+
+-- Insert Teacher/Class Assignments
+INSERT INTO teacher_classes (assigned_id, teacher_id, class_id, position) VALUES (1, 1, 1, 'Lead Guide');
+INSERT INTO teacher_classes (assigned_id, teacher_id, class_id, position) VALUES (2, 2, 1, 'Co-Guide');
+INSERT INTO teacher_classes (assigned_id, teacher_id, class_id, position) VALUES (3, 3, 1, 'Co-Guide');
+INSERT INTO teacher_classes (assigned_id, teacher_id, class_id, position) VALUES (4, 4, 2, 'Lead Guide');
+INSERT INTO teacher_classes (assigned_id, teacher_id, class_id, position) VALUES (5, 5, 2, 'Co-Guide');
+INSERT INTO teacher_classes (assigned_id, teacher_id, class_id, position) VALUES (6, 6, 3, 'Lead Guide');
+INSERT INTO teacher_classes (assigned_id, teacher_id, class_id, position) VALUES (7, 7, 3, 'Co-Guide');
+INSERT INTO teacher_classes (assigned_id, teacher_id, class_id, position) VALUES (8, 8, 3, 'Assistant Guide');
+INSERT INTO teacher_classes (assigned_id, teacher_id, class_id, position) VALUES (9, 9, 4, 'Co-Guide');
+INSERT INTO teacher_classes (assigned_id, teacher_id, class_id, position) VALUES (10, 3, 4, 'Co-Guide');
+
+-- Insert Teacher Evaluations
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (1, 1, TO_DATE('2021-09-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (2, 1, TO_DATE('2022-09-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (3, 2, TO_DATE('2021-09-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (4, 2, TO_DATE('2022-09-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (5, 1, TO_DATE('2020-09-09', 'yyyy-mm-dd'), 93);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (6, 1, TO_DATE('2019-09-09', 'yyyy-mm-dd'), 90);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (7, 4, TO_DATE('2021-09-09', 'yyyy-mm-dd'), 98);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (8, 4, TO_DATE('2022-09-09', 'yyyy-mm-dd'), 97);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (9, 5, TO_DATE('2021-09-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (10, 5, TO_DATE('2022-09-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (11, 6, TO_DATE('2021-09-09', 'yyyy-mm-dd'), 92);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (12, 6, TO_DATE('2022-09-09', 'yyyy-mm-dd'), 95);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (13, 7, TO_DATE('2021-09-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (14, 7, TO_DATE('2022-09-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (15, 8, TO_DATE('2021-09-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (16, 8, TO_DATE('2022-09-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (17, 9, TO_DATE('2021-09-09', 'yyyy-mm-dd'), 75);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (18, 1, TO_DATE('2020-03-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (19, 4, TO_DATE('2020-09-09', 'yyyy-mm-dd'), 100);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (20, 6, TO_DATE('2020-09-09', 'yyyy-mm-dd'), 87);
+INSERT INTO teacher_evals (evaluation_id, teacher_id, evaluation_date, evaluation) VALUES (21, 3, TO_DATE('2022-09-09', 'yyyy-mm-dd'), 75);
+
+-- Insert Certifications
+INSERT INTO certs (certification_id, certification_name, certification_provider) VALUES (1, 'Early Childhood Education', 'Montessori Institute');
+INSERT INTO certs (certification_id, certification_name, certification_provider) VALUES (2, 'Elementary Education', 'American Montessori Society');
+INSERT INTO certs (certification_id, certification_name, certification_provider) VALUES (3, 'Child Development', 'Nat. Assoc. for the Education of Young Children');
+INSERT INTO certs (certification_id, certification_name, certification_provider) VALUES (4, 'Classroom Management', 'Montessori Training Center International');
+INSERT INTO certs (certification_id, certification_name, certification_provider) VALUES (5, 'Montessori Methodology', 'Association Montessori Internationale');
+
+-- Insert Cert Records
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (1, 1, 1, DATE '2020-01-01', 'Completed', 'True');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (2, 1, 2, DATE '2020-02-01', 'Completed', 'False');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (3, 1, 3, DATE '2020-03-01', 'Completed', 'False');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (4, 2, 1, DATE '2022-04-01', 'In Progress', 'True');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (5, 2, 2, DATE '2022-05-01', 'Completed', 'True');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (6, 2, 3, DATE '2022-06-01', 'Not Started', 'True');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (7, 3, 1, DATE '2022-07-01', 'In Progress', 'False');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (8, 3, 2, DATE '2022-08-01', 'Not Started', 'True');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (9, 3, 3, DATE '2022-09-01', 'Completed', 'False');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (10, 4, 1, DATE '2022-10-01', 'Completed', 'True');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (11, 4, 2, DATE '2022-11-01', 'In Progress', 'False');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (12, 4, 3, DATE '2022-12-01', 'Not Started', 'True');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (13, 5, 1, DATE '2022-01-01', 'In Progress', 'True');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (14, 5, 2, DATE '2022-02-01', 'Not Started', 'True');
+INSERT INTO cert_records (record_id, teacher_id, cert_id, obtained_date, certification_progress, required) VALUES (15, 5, 3, DATE '2022-03-01', 'Completed', 'True');
+
+-- Insert Attendance
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (1, 1, 1, 17, 1, TIMESTAMP '2022-09-01 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (2, 1, 1, 17, 1, TIMESTAMP '2022-09-02 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (3, 1, 1, 17, 1, TIMESTAMP '2022-09-05 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (4, 1, 1, 17, 1, TIMESTAMP '2022-09-06 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (5, 1, 1, 17, 1, TIMESTAMP '2022-09-07 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (6, 1, 1, 17, 1, TIMESTAMP '2022-09-08 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (7, 1, 1, 17, 1, TIMESTAMP '2022-09-09 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (8, 1, 1, 17, 1, TIMESTAMP '2022-09-12 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (9, 2, 1, 18, 1, TIMESTAMP '2022-09-01 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (10, 2, 1, 18, 1, TIMESTAMP '2022-09-02 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (11, 2, 1, 18, 1, TIMESTAMP '2022-09-05 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (12, 2, 1, 18, 1, TIMESTAMP '2022-09-06 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (13, 2, 1, 18, 1, TIMESTAMP '2022-09-07 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (14, 2, 1, 18, 1, TIMESTAMP '2022-09-08 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (15, 2, 1, 18, 1, TIMESTAMP '2022-09-09 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (16, 2, 1, 18, 1, TIMESTAMP '2022-09-12 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (17, 2, 1, 21, 1, TIMESTAMP '2022-09-01 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (18, 2, 1, 21, 1, TIMESTAMP '2022-09-02 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (19, 2, 1, 21, 1, TIMESTAMP '2022-09-05 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (20, 2, 1, 21, 1, TIMESTAMP '2022-09-06 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (21, 2, 1, 21, 1, TIMESTAMP '2022-09-07 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (22, 2, 1, 21, 1, TIMESTAMP '2022-09-08 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (23, 2, 1, 21, 1, TIMESTAMP '2022-09-09 08:00:00');
+INSERT INTO attendance (attendance_id, sect_id, class_id, student_id, teacher_id, record_timestamp) VALUES (24, 2, 1, 21, 1, TIMESTAMP '2022-09-12 08:00:00');
+
+-- Insert Payments
+
+-- Insert Grad Records
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (1, 1, 1, DATE '1998-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (2, 1, 2, DATE '1998-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (3, 1, 3, DATE '1999-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (4, 1, 4, DATE '2004-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (5, 1, 5, DATE '1997-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (6, 1, 7, DATE '2004-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (7, 1, 8, DATE '2011-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (8, 1, 9, DATE '2010-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (9, 1, 10, DATE '2014-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (10, 1, 11, DATE '2012-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (11, 1, 12, DATE '2013-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (12, 1, 13, DATE '2014-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (13, 1, 14, DATE '2019-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (14, 1, 15, DATE '2021-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (15, 1, 16, DATE '2021-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (16, 1, 19, DATE '1998-05-05');
+INSERT INTO grad_records (record_id, program_id, student_id, grad_date) VALUES (17, 1, 20, DATE '1998-05-05');
+
+-- Insert Waitlist
+INSERT INTO waitlists (waitlist_id, program_id, student_id, date_added) VALUES (1, 3, 26, DATE '2022-08-15');
+INSERT INTO waitlists (waitlist_id, program_id, student_id, date_added) VALUES (2, 1, 27, DATE '2022-08-15');
+INSERT INTO waitlists (waitlist_id, program_id, student_id, date_added) VALUES (3, 1, 22, DATE '2022-06-15');
+INSERT INTO waitlists (waitlist_id, program_id, student_id, date_added) VALUES (4, 1, 23, DATE '2022-08-20');
+INSERT INTO waitlists (waitlist_id, program_id, student_id, date_added) VALUES (5, 1, 24, DATE '2022-08-15');
+
+-- Insert Payments
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 1,17, 11, '01-Aug-22', 'money orders', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 2,18, 12, '01-Aug-22', 'bank checks', 5350);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 3,21, 21, '19-Sep-22', 'money orders', 100);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 4,21, 21, '17-Oct-22', 'bank checks', 100);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 5,21, 21, '14-Nov-22', 'cash', 100);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 6,21, 21, '12-Dec-22', 'money orders', 100);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 7,21, 22, '19-Sep-22', 'checks', 100);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 8,21, 22, '17-Oct-22', 'cash', 100);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 9,21, 22, '14-Nov-22', 'checks', 100);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 10,21, 22, '12-Dec-22', 'bank checks', 100);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 11,25, 25, '17-Oct-22', 'monthly auto-pay', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 12,25, 25, '17-Oct-22', 'checks', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 13,25, 26, '17-Oct-22', 'bank checks', 3050);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 14,25, 26, '17-Oct-22', 'money orders', 2425);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 15,28, 29, '17-Nov-22', 'cash', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 16,28, 29, '17-Nov-22', 'money orders', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 17,29, 29, '17-Nov-22', 'monthly auto-pay', 3050);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 18,29, 29, '17-Nov-22', 'checks', 2425);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 19,17, 12, '01-Aug-22', 'money orders', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 20,21, 22, '19-Sep-22', 'cash', 1110);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 21,21, 22, '17-Oct-22', 'bank checks', 485);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 22,21, 22, '14-Nov-22', 'money orders', 485);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 23,21, 22, '12-Dec-22', 'money orders', 485);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 24,26, 27, '17-Oct-22', 'money orders', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 25,26, 27, '17-Oct-22', 'monthly auto-pay', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 26,28, 30, '17-Nov-22', 'monthly auto-pay', 3050);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 27,28, 30, '17-Nov-22', 'checks', 2425);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 28,18, 11, '01-Aug-22', 'monthly auto-pay', 5350);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 29,17, 12, '01-Aug-22', 'money orders', 4850);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 30,18, 12, '01-Aug-22', 'cash', 990);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 31,21, 21, '19-Sep-22', 'money orders', 1110);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 32,21, 21, '17-Oct-22', 'bank checks', 485);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 33,21, 21, '14-Nov-22', 'cash', 485);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 34,21, 21, '12-Dec-22', 'money orders', 485);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 35,26, 27, '17-Oct-22', 'cash', 3050);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 36,26, 27, '17-Oct-22', 'bank checks', 2425);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 37,29, 30, '17-Nov-22', 'cash', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 38,29, 30, '17-Nov-22', 'money orders', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 39,17, 11, '01-Aug-22', 'monthly auto-pay', 4850);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 40,18, 11, '01-Aug-22', 'cash', 990);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 41,25, 26, '17-Oct-22', 'money orders', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 42,25, 26, '17-Oct-22', 'checks', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 43,28, 29, '17-Nov-22', 'bank checks', 3050);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 44,28, 29, '17-Nov-22', 'bank checks', 2425);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 45,26, 28, '17-Oct-22', 'checks', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 46,26, 28, '17-Oct-22', 'money orders', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 47,29, 30, '17-Nov-22', 'bank checks', 3050);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 48,29, 30, '17-Nov-22', 'monthly auto-pay', 2425);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 49,25, 25, '17-Oct-22', 'monthly auto-pay', 3050);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 50,25, 25, '17-Oct-22', 'cash', 2425);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 51,26, 28, '17-Oct-22', 'checks', 3050);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 52,26, 28, '17-Oct-22', 'checks', 2425);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 53,29, 29, '17-Nov-22', 'bank checks', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 54,29, 29, '17-Nov-22', 'money orders', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 55,28, 30, '17-Nov-22', 'bank checks', 495);
+INSERT INTO payments (payment_id ,account_id, payer_id, payment_date, payment_method, amount_paid) VALUES ( 56,28, 30, '17-Nov-22', 'checks', 495);
